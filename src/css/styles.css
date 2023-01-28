@@ -1,5 +1,5 @@
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'preconnect';
     background: #000919 url(../imagens/fundo.png) no-repeat top center;
 }
 
@@ -67,7 +67,7 @@ input.submit{
     background: -o-linear-gradient(to bottom, #faa600 #f68a00);
 }
 
-a{
+#area-conteudo a{
     color: #fff;
     font-size: 0.8em;
     text-decoration: none;
@@ -133,18 +133,12 @@ background-image: url(../imagens/icone-email2.png);
 
 /************************ PÁGINA PRINCIPAL ****************************/ 
 
-#home{
-    background:	#000923;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 0px;
-}
-
-#topo-home{
+.cabecalho{
     width: 100%;
-    height: 85px;
+    height: 13vh;
     background: #000919;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction:row;
 }
@@ -178,16 +172,16 @@ background-image: url(../imagens/icone-email2.png);
     color: #f68a00;
 }
 
-#titulo{
+.titulo{
     position:relative;
     margin: auto auto;
     font-size: 1.4em;
     color: #fff;
-    width: 30%;
     text-align: center;
+    text-transform: uppercase;
 }
 
-#sair{
+.sair{
     font-size: 1.3em;
     color: #fff;
     margin: auto 25px;
@@ -269,3 +263,74 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0px;
     color: #fff;
 }
+
+main{
+    border-radius: 5px;
+    padding: auto auto;
+    margin: 25px auto;
+    width: 90%;
+    height: 70%;
+    background-color: #7D7D7D;
+}
+
+.mes-atual{
+    font-size: 1.4em;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.mes-atual h3{
+    color: #000919;
+}
+
+.doze-meses{
+    font-size: 1.4em;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.doze-meses h3{
+    color: #000919;
+}
+
+ul.meses{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-around
+}
+
+span.mes{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #f68a00;
+}
+
+
+nav.navegacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav.navegacao ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+nav.navegacao ul li a{
+    font-weight: bold;  
+    padding: 8px;
+}
+
+nav.navegacao ul li a:hover{
+    background-color: #33ddc6;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
