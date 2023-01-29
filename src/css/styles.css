@@ -58,13 +58,16 @@ input.senha{
 input.submit{
     color: #fff;
     background-color:#000919;
-    margin: 2px solid #083a96;
     padding: 5px 20px;
     height: 45px;
     width: 90%;
     cursor: pointer;
+}
 
-    background: -o-linear-gradient(to bottom, #faa600 #f68a00);
+input.submit:hover{
+    background-color: #33ddc6;
+    transition:all 0.5s ease;
+    transform: scale(0.9); 
 }
 
 #area-conteudo a{
@@ -83,7 +86,7 @@ a:hover{
 
 #container-cadastro{
     width: 400px;
-    height: 400px;
+    height: 460px;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     margin: 0 auto;
@@ -102,8 +105,8 @@ a:hover{
 
 #container-cadastro .cadastrar{
     cursor: pointer;
+    width: 120px;
 }
-
 
 #cadastro{
     font-size: 18px;
@@ -130,6 +133,13 @@ background-image: url(../imagens/icone-email2.png);
     padding-left: 40px;
     background-image: url(../imagens/icone-cpf2.png);
 }
+
+#container-cadastro .instituicao{
+    padding-left: 41px;
+    background-image: url(../imagens/icone-academia2.png);
+    background-position-x: 4px;
+}
+
 
 /************************ PÁGINA PRINCIPAL ****************************/ 
 

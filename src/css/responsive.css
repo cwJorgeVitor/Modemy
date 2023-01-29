@@ -53,17 +53,36 @@
 
     /*Campos de cadastro*/
 
-#container-cadastro .email1{
+    #container-cadastro{
+        width: 340px;
+        height: 370px;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: 120px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    #container-cadastro img{
+        width: 80px;
+        height: 80px;
+        margin-top: -60px;
+        margin-bottom: 30px;
+        border-radius: 20px;
+    }
+
+    #container-cadastro .email1{
     padding-left: 40px;
     width: 80%;
-    height: 80px;
+    height: 30px;
     margin-bottom: 10px;
     background-image: url(../imagens/icone-email2.png);
     }
     
     #container-cadastro .senha1{
         width: 80%;
-        height: 80px;
+        height: 30px;
         margin-bottom: 10px;
         padding-left: 40px;
         background-image: url(../imagens/icone-cadeado.png);    
@@ -71,7 +90,7 @@
     
     #container-cadastro .nome1{
         width: 80%;
-        height: 80px;
+        height: 30px;
         margin-bottom: 10px;
         padding-left: 40px;
         background-image: url(../imagens/icone-usuario.png);
@@ -79,7 +98,7 @@
     
     #container-cadastro .cpf1{
         width: 80%;
-        height: 80px;
+        height: 30px;
         margin-bottom: 10px;
         padding-left: 40px;
         background-image: url(../imagens/icone-cpf2.png);
@@ -88,5 +107,9 @@
     #container-cadastro .cpf1{
     padding-left: 40px;
     background-image: url(../imagens/icone-cpf2.png);
+    }
+
+    #container-cadastro .cadastrar{
+        width: 80%;
     }
 }
