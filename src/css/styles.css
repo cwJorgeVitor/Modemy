@@ -194,15 +194,15 @@ background-image: url(../imagens/icone-email2.png);
     padding: 0px;
 }
 
-.clear{
-    clear: both;
-}
-
 /********************* Área de conteudo *********************/
 
 #area-conteudo{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
 }
+
 
 .campos{
     width: 260px;
@@ -213,21 +213,22 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 1.7em;
     color: #fff;
-    margin: 10px 30px;
-    float: left;
+    margin: 10px 15px;
+}
+
+#area-conteudo, .campos a{
+    margin: 0;
+    padding: 0;
+}
+
+#area-conteudo, .campos h4{
+    margin: 0;
+    padding: 0;
 }
 
 .campos:hover{
-    width: 260px;
-    height: 210px;
-    padding: 10px;
     background: #33ddc6;
-    border-radius: 30px;
-    text-align: center;
-    font-size: 1.7em;
     color: #fff;
-    margin: 10px 30px;
-    float: left;
     transition: 1.3s;
 }
 
@@ -236,22 +237,10 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transition: 1.3s;
 }
 
-.campos img{
-    width: 90px;
-    display: inline;
-    margin: auto;
-    
-}
-
-#area-conteudo a{
-    display: block;
-}
-
 .valor{
     font-size: 60px;
     text-align: center;
     color: #33ddc6;
-    display: block;
     padding-top: 20;
 }
 
@@ -264,7 +253,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #fff;
 }
 
-main{
+main.dados{
     border-radius: 5px;
     padding: auto auto;
     margin: 25px auto;

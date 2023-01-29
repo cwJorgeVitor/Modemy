@@ -50,4 +50,43 @@
     
         background: -o-linear-gradient(to bottom, #faa600 #f68a00);
     }
+
+    /*Campos de cadastro*/
+
+#container-cadastro .email1{
+    padding-left: 40px;
+    width: 80%;
+    height: 80px;
+    margin-bottom: 10px;
+    background-image: url(../imagens/icone-email2.png);
+    }
+    
+    #container-cadastro .senha1{
+        width: 80%;
+        height: 80px;
+        margin-bottom: 10px;
+        padding-left: 40px;
+        background-image: url(../imagens/icone-cadeado.png);    
+    }
+    
+    #container-cadastro .nome1{
+        width: 80%;
+        height: 80px;
+        margin-bottom: 10px;
+        padding-left: 40px;
+        background-image: url(../imagens/icone-usuario.png);
+    }
+    
+    #container-cadastro .cpf1{
+        width: 80%;
+        height: 80px;
+        margin-bottom: 10px;
+        padding-left: 40px;
+        background-image: url(../imagens/icone-cpf2.png);
+    }
+
+    #container-cadastro .cpf1{
+    padding-left: 40px;
+    background-image: url(../imagens/icone-cpf2.png);
+    }
 }
