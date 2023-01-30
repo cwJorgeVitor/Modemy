@@ -4,5 +4,5 @@ function logar(nome) {
 };
 
 function abrirIndex(){
-    window.open('../index.html')
+    window.open('index.html')
 }
