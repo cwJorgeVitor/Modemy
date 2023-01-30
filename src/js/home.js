@@ -1,0 +1,3 @@
+function sair(){
+    window.close();
+}
