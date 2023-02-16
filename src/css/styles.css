@@ -1,5 +1,5 @@
 body{
-    font-family: 'preconnect';
+    font-family: 'Poppins';
     background: #000919 url(../imagens/fundo.png) no-repeat top center;
 }
 
@@ -188,7 +188,6 @@ background-image: url(../imagens/icone-email2.png);
     font-size: 1.4em;
     color: #fff;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .sair{
@@ -196,7 +195,10 @@ background-image: url(../imagens/icone-email2.png);
     color: #fff;
     margin: auto 25px;
     padding: 0px;
+    right: 0px;
+    top: 25px;
     padding-left: 0px;
+    position: absolute;
 }
 
 
@@ -206,6 +208,7 @@ background-image: url(../imagens/icone-email2.png);
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 display: flex;
 justify-content: center;
+align-items: flex-end;
 flex-wrap: wrap;
 }
 
@@ -220,17 +223,11 @@ flex-wrap: wrap;
     font-size: 1.7em;
     color: #fff;
     margin: 10px 15px;
+    align-items: center;
+    margin: auto auto;
+    margin-top: 100px;
 }
 
-#area-conteudo, .campos a{
-    margin: 0;
-    padding: 0;
-}
-
-#area-conteudo, .campos h4{
-    margin: 0;
-    padding: 0;
-}
 
 .campos:hover{
     background: #33ddc6;
@@ -254,7 +251,8 @@ flex-wrap: wrap;
     width: 100%;
     background-color: #000919;
     height: 45px;
-    margin: 0px;
+    bottom: 0px;
+    position: fixed;
     padding: 0px;
     color: #fff;
 }
@@ -306,6 +304,9 @@ nav.navegacao{
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: absolute;
+    bottom: 0px;
+    justify-content: center;;
 }
 
 nav.navegacao ul{
@@ -325,7 +326,87 @@ nav.navegacao ul li a:hover{
     background-color: #33ddc6;
     border-radius: 50px;
     text-decoration: none;
-    transition: 0.5s;
+    transition: 0.8s;
+}
+
+
+#container-instrutores{
+    width: 1250px;
+    height: auto;
+    margin: 25px auto;
+    background-color: #4140533d;
+    border-radius: 50px;
+}
+
+.dados-instrutores{
+    display: flex;
+}
+
+.campo-instrutor h3{
+    color: #f68a00;
+}
+
+.campo-instrutor{
+    padding: 40px;
+    color: #fff;
+}
+
+.cadastrar-instrutor{
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+    margin: auto auto;
+}
+
+.quantidade-instrutores{
+    font-weight: bolder;
+    font-size: 1.8em;
+    margin-top: 5px;
+}
+
+.btn-cadastro-instrutor{
+    background-color: #000919;
+    width: auto;
+    height: 40px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.1em;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.btn-cadastro-instrutor:hover{
+    cursor: pointer;
+    background-color: #33ddc6;
+    transition: 0.2s;
+}
+
+.btn-remover-instrutor{
+    background-color: #000919;
+    width: auto;
+    height: 40px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.1em;
+    border: none;
+}
+
+.btn-remover-instrutor:hover{
+    cursor: pointer;
+    background-color: #df0000;
+    transition: 0.2s;
+}
+
+#container-dados{
+    width: 1250px;
+    height: 450px;
+    margin: 25px auto;
+    background-color: #b1b1b1;
+    border-radius: 50px;
+    opacity: 0.2;
 }
 
 

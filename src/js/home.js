@@ -1,3 +1,3 @@
 function sair(){
-    window.close();
+    window.Close('index.html')
 }
