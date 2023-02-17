@@ -257,43 +257,64 @@ flex-wrap: wrap;
     color: #fff;
 }
 
-main.dados{
+main.dados-matricula{
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 5px;
     padding: auto auto;
     margin: 25px auto;
     width: 90%;
     height: 70%;
-    background-color: #7D7D7D;
+    background-color: #41405360;
+    border-radius: 50px;
+    gap: 60px;
 }
 
 .mes-atual{
-    font-size: 1.4em;
-    padding-top: 30px;
+    margin: 10px auto;
     text-align: center;
+    width: auto;
+    height: 150px;
+    font-size: 1.2em;
 }
 
 .mes-atual h3{
-    color: #000919;
+    color: #ffffff;
+}
+
+.total-matriculas{
+    text-align: center;
+    margin: 10px auto;
+    width: auto;
+    height: 150px;
+    font-size: 1.2em;
 }
 
 .doze-meses{
-    font-size: 1.4em;
-    padding-top: 10px;
-    text-align: center;
+    margin-top: -80px;
+    width: 100%;
+    font-size: 1.2em;
 }
 
 .doze-meses h3{
-    color: #000919;
+    color: #ffffff;
+    text-align: center;
 }
 
-ul.meses{
-    list-style: none;
+.dado-mes{
+    font-weight: bolder;
+    color: #f68a00;
+    font-size: 1.3em;
+}
+
+.meses{
     display: flex;
-    align-items: center;
-    justify-content:space-around
+    gap: 30px;
+    justify-content: center;
 }
 
-span.mes{
+.mes{
+    text-align: center;
     font-size: 1.2em;
     font-weight: bold;
     color: #f68a00;
@@ -372,7 +393,7 @@ nav.navegacao ul li a:hover{
     border-radius: 50px;
     color: #fff;
     font-weight: bolder;
-    font-size: 1.1em;
+    font-size: 1em;
     border: none;
     margin-bottom: 10px;
 }
@@ -390,7 +411,7 @@ nav.navegacao ul li a:hover{
     border-radius: 50px;
     color: #fff;
     font-weight: bolder;
-    font-size: 1.1em;
+    font-size: 1em;
     border: none;
 }
 
@@ -400,13 +421,36 @@ nav.navegacao ul li a:hover{
     transition: 0.2s;
 }
 
+main.dados-desistentes{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    padding: auto auto;
+    margin: 25px auto;
+    width: 90%;
+    height: 70%;
+    background-color: #41405360;
+    border-radius: 50px;
+    gap: 60px;
+}
+
+
 #container-dados{
+    display: flex;
     width: 1250px;
     height: 450px;
     margin: 25px auto;
-    background-color: #b1b1b1;
+    background-color: #4140534d;
     border-radius: 50px;
-    opacity: 0.2;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#container-dados .titulo{
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    display: block;
 }
 
 
