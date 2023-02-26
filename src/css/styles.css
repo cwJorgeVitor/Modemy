@@ -55,16 +55,19 @@ input.senha{
 }
 
 
-input.submit{
+.submit{
     color: #fff;
     background-color:#000919;
     padding: 5px 20px;
     height: 45px;
     width: 90%;
     cursor: pointer;
+    border: none;
+    font-weight: bolder;
+    font-size: 1em;
 }
 
-input.submit:hover{
+.submit:hover{
     background-color: #33ddc6;
     transition:all 0.5s ease;
     transform: scale(0.9); 
@@ -153,11 +156,11 @@ background-image: url(../imagens/icone-email2.png);
     flex-direction:row;
 }
 
-#info-usuario-home img{
-    width: 25%;
+.cabecalho img{
+    width: 8%;
     height: 85%;
     margin-left: 10px;
-    padding: 10px;
+    padding: 10px 15px;
 }
 
 .nome-usuario{
@@ -188,11 +191,9 @@ background-image: url(../imagens/icone-email2.png);
     font-size: 1.3em;
     color: #fff;
     margin: auto 25px;
-    padding: 0px;
-    right: 0px;
     top: 25px;
     padding-left: 0px;
-    position: absolute;
+    padding-left: 900px;
 }
 
 
@@ -201,9 +202,9 @@ background-image: url(../imagens/icone-email2.png);
 #area-conteudo{
 display: flex;
 justify-content: center;
-align-items: flex-end;
 flex-wrap: wrap;
 gap: 50px;
+margin-top: 10%;
 }
 
 
@@ -217,7 +218,6 @@ gap: 50px;
     font-size: 1.7em;
     color: #fff;
     align-items: center;
-    margin-top: 100px;
 }
 
 
@@ -236,7 +236,10 @@ gap: 50px;
     font-size: 60px;
     text-align: center;
     color: #33ddc6;
-    padding-top: 20;
+}
+
+.campos h4{
+    margin: auto;
 }
 
 #rodape{
@@ -252,6 +255,7 @@ gap: 50px;
 main.dados-matricula{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     border-radius: 5px;
     padding: auto auto;
     margin: 25px auto;
@@ -276,19 +280,19 @@ main.dados-matricula{
 
 .total-matriculas{
     text-align: center;
-    margin: 10px auto;
+    margin: -100px auto;
     width: auto;
     height: 150px;
     font-size: 1.2em;
 }
 
 .doze-meses{
-    margin-top: -80px;
     width: 100%;
     font-size: 1.2em;
 }
 
 .doze-meses h3{
+    margin-top: 30px;
     color: #ffffff;
     text-align: center;
 }
@@ -311,7 +315,6 @@ main.dados-matricula{
     font-weight: bold;
     color: #f68a00;
 }
-
 
 nav.navegacao{
     display: flex;

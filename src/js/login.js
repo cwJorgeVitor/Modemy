@@ -5,14 +5,13 @@ function logar(nome) {
 };
 
 function abrirIndex(){
-    window.open(URL="../index.html")
+    window.location.href = '../index.html'
 }
 
 function verificarSenha(){
    
     if(document.getElementById('senha').value == senha){
         abrirIndex() 
-        window.close()
     } 
     else if(document.getElementById('senha').value == ''){
         alert('Senha não inserida')
