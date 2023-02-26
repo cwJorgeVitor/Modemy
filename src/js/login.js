@@ -2,20 +2,21 @@ var senha = 'o'
 
 function logar(nome) {
     alert("Olá, " + nome);
-    open(URL="home.html")
 };
 
 function abrirIndex(){
-    window.open('index.html')
+    window.open(URL="../index.html")
 }
 
 function verificarSenha(){
    
     if(document.getElementById('senha').value == senha){
         abrirIndex() 
+        window.close()
     } 
     else if(document.getElementById('senha').value == ''){
         alert('Senha não inserida')
+
     }
     else{
         alert('Senha Incorreta!!')

@@ -112,4 +112,71 @@
     #container-cadastro .cadastrar{
         width: 80%;
     }
+
+
+/* ************************* INDEX **************************** */
+
+.cabecalho img{
+    width: 20%;
+    height: 70%;
+    padding: 10px;
+}
+
+.cabecalho ul{
+    width: 50%; 
+    padding-left: 0px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nome-usuario{
+    float: right;
+    color: #fff;
+    display: inline;
+    text-align: center;
+}
+
+.nome-academia{
+    clear: both;
+    float: right;
+    color: #f68a00;
+    text-align: center;
+}
+
+.sair{
+    font-size: 1.2em;
+    color: #fff;
+    margin: auto 25px;
+    padding: 0px;
+    right: 0px;
+    top: 25px;
+}
+
+#area-conteudo{
+    display: flex;
+    justify-content: center;
+}
+
+#area-conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    }
+    
+.campos{
+        width: 65%;
+        height:65%;
+        padding: 10px;
+        background: -webkit-gradient(linear, left top, right bottom, from(#191b1f), to(rgb(7, 80, 129))) no-repeat;
+        border-radius: 30px;
+        text-align: center;
+        font-size: 1.5em;
+        color: #fff;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
 }
