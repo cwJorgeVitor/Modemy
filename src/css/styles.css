@@ -284,7 +284,7 @@ main.dados-matricula{
 .doze-meses{
     width: 100%;
     font-size: 1.2em;
-    margin-top: -40px;
+    margin-top: auto;
 }
 
 .doze-meses h3{

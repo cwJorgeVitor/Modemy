@@ -163,13 +163,9 @@
 #area-conteudo{
     display: flex;
     justify-content: center;
-}
-
-#area-conteudo{
-    display: flex;
-    justify-content: center;
     align-items: flex-end;
     gap: 20px;
+    height: auto;
     }
     
 .campos{
@@ -182,7 +178,7 @@
         font-size: 1.5em;
         color: #fff;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
 
 .campos h4{
@@ -198,16 +194,20 @@
     font-size: 1em;
 }
 
+
+/* ************************************ Matricula ************************** */
+
 .total-matriculas{
     text-align: center;
-    margin: -90px auto;
+    margin: auto;
     width: auto;
     height: 150px;
     font-size: 1em;
+    margin: -80px;
 }
 
 main.dados-matricula{
-    margin-top: 50px;
+    margin-top: 50px auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -221,8 +221,28 @@ main.dados-matricula{
     gap: 60px;
 }
 
-.doze-meses{
+/* ************************************ Desistencias ************************** */
+
+.desistentes-mes-atual{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    gap: 0px;
+    text-align: center;
+}
+
+.total-desistencias{
+    text-align: center;
+    width: auto;
+    height: 150px;
+    font-size: 1em;
     margin-top: -80px;
+}
+
+.doze-meses-desistencia{
+    margin-top: -80px;
+} 
+
+.doze-meses{
     flex-wrap: wrap;
     width: 100%;
     font-size: 1.2em;
@@ -289,18 +309,18 @@ nav.navegacao ul li a:hover{
     transition: 0.8s;
 }
 
-.desistentes-mes-atual{
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    gap: 0px;
-}
-
-.total-desistencias{
-    margin-top: -90px;
-}
 
 .titulo{
     justify-content: center;
 }
 
+#rodape{
+    width: 100%;
+    background-color: #000919;
+    position: fixed;
+    height: 45px;
+    padding: 0px;
+    bottom: 0px;
+    color: #fff;
+}
 }
