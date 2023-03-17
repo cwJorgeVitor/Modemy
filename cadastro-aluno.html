@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/imagens/fav-icone.png" type="image/x-icon">
+    
+    <title>Cadastrar aluno</title>
+
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div id="container-cadastro-aluno">
+        <img class="icone" src="./src/imagens/logo.jpg" alt="">
+
+        <form>
+                <label for="nome-aluno" class="label-nome-aluno">Nome</label> <br>
+                <input type="text" class="input-nome-aluno" name="nome-aluno"><br>
+
+                <label for="Sexo-aluno" class="label-sexo-aluno">Sexo</label> <br>
+                <div class="radios">
+                    <span><input type="radio" class="sexo-aluno" name="sexo-aluno" value="Masculino"> Masculino</span>
+                    <span><input type="radio" class="sexo-aluno" name="sexo-aluno" value="Feminino"> Feminino </span>
+                </div>
+
+
+                <label for="periodo" class="label-periodo-aluno">Período</label> <br>
+                <div class="radios">
+                    <input type="radio" class="periodo" name="periodo" value="Manhã"> Manhã
+                    <input type="radio" class="periodo" name="periodo" value="Tarde"> Tarde
+                    <input type="radio" class="periodo" name="periodo" value="Noite"> Noite
+                </div>
+
+
+        </form>
+
+        <div class="botoes">
+            <input class="btn-cadastrar-aluno" type="submit" value="Cadastrar">
+            <input class="btn-cancelar" type="submit" value="Cancelar">
+        </div>
+    </div>
+
+</body>
+</html>
